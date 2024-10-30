@@ -5,7 +5,7 @@ const works = [
       imgSrc: '/ramdhan-np/images/website-1.png',
       title: 'Top UP Game Web',
       tags: ['MERN Stack', 'Development'],
-      projectLink: 'https://gamestore-l3oywhkbw-ramdhannps-projects.vercel.app/'
+      projectLink: 'https://gamestore-bh4kl5wuq-ramdhannps-projects.vercel.app/'
     },
     {
       imgSrc: '/ramdhan-np/images/website-2.png',
