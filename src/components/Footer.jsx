@@ -92,7 +92,7 @@ const Footer = () => {
 
             <div className="flex items-cemmter justify-between pt-10 mb-8 reveal-up">
                 <a href="" className="">
-                    <img src="/public/images/logo.jpeg" alt="logo" 
+                    <img src="/ramdhan-np/images/logo.jpeg" alt="logo" 
                     width={40}
                     height={40}
                     className="rounded-lg"

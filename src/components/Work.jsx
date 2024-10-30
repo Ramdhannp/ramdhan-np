@@ -2,19 +2,19 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-      imgSrc: '/public/images/website-1.png',
+      imgSrc: '/ramdhan-np/images/website-1.png',
       title: 'Top UP Game Web',
       tags: ['MERN Stack', 'Development'],
       projectLink: 'https://gamestore-l3oywhkbw-ramdhannps-projects.vercel.app/'
     },
     {
-      imgSrc: '/public/images/website-2.png',
+      imgSrc: '/ramdhan-np/images/website-2.png',
       title: 'Monitoring Dashboard',
       tags: ['React', 'Intership'],
       projectLink: 'https://ramdhannp.github.io/dashboard-monitoring-kerja-praktik/'
     },
     {
-      imgSrc: '/public/images/website-3.jpg',
+      imgSrc: '/ramdhan-np/images/website-3.jpg',
       title: 'My Old Web Potrolofio',
       tags: ['Next JS', 'Web Portofolio'],
       projectLink: 'https://ramdhan-portofolio.vercel.app/'

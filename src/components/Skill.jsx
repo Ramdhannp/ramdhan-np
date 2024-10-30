@@ -2,42 +2,42 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-      imgSrc: '/public/images/css3.svg',
+      imgSrc: '/ramdhan-np/images/css3.svg',
       label: 'CSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/public/images/javascript.svg',
+      imgSrc: '/ramdhan-np/images/javascript.svg',
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
-      imgSrc: '/public/images/next-js.png',
+      imgSrc: '/ramdhan-np/images/next-js.png',
       label: 'Next JS',
       desc: 'React Framework'
     },
     {
-      imgSrc: '/public/images/bootstrap-logo-shadow.png',
+      imgSrc: '/ramdhan-np/images/bootstrap-logo-shadow.png',
       label: 'Bootstrap',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/public/images/react.svg',
+      imgSrc: '/ramdhan-np/images/react.svg',
       label: 'React',
       desc: 'Framework'
     },
     {
-      imgSrc: '/public/images/tailwindcss.svg',
+      imgSrc: '/ramdhan-np/images/tailwindcss.svg',
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/public/images/github-logo.svg',
+      imgSrc: '/ramdhan-np/images/github-logo.svg',
       label: 'Github',
       desc: 'Manage Projects'
     },
     {
-      imgSrc: '/public/images/Typescript_logo_2020.svg',
+      imgSrc: '/ramdhan-np/images/Typescript_logo_2020.svg',
       label: 'Typescript',
       desc: 'JavaScript Superset'
     }
