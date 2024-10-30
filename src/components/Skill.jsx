@@ -2,42 +2,42 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-      imgSrc: '/images/css3.svg',
+      imgSrc: '/public/images/css3.svg',
       label: 'CSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/javascript.svg',
+      imgSrc: '/public/images/javascript.svg',
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
-      imgSrc: '/images/next-js.png',
+      imgSrc: '/public/images/next-js.png',
       label: 'Next JS',
       desc: 'React Framework'
     },
     {
-      imgSrc: '/images/bootstrap-logo-shadow.png',
+      imgSrc: '/public/images/bootstrap-logo-shadow.png',
       label: 'Bootstrap',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/react.svg',
+      imgSrc: '/public/images/react.svg',
       label: 'React',
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/tailwindcss.svg',
+      imgSrc: '/public/images/tailwindcss.svg',
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/github-logo.svg',
+      imgSrc: '/public/images/github-logo.svg',
       label: 'Github',
       desc: 'Manage Projects'
     },
     {
-      imgSrc: '/images/Typescript_logo_2020.svg',
+      imgSrc: '/public/images/Typescript_logo_2020.svg',
       label: 'Typescript',
       desc: 'JavaScript Superset'
     }
