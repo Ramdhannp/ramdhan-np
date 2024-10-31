@@ -18,7 +18,7 @@ const About = () => {
         <div className="container">
             <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
                 <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[70ch] reveal-up">
-                I am ready to work as a Front-End Web Developer skilled in using React and Next.js to build modern, responsive web applications. I have the ability to work independently or as part of a team.
+                I am ready to work as a Web Developer with expertise in the JavaScript ecosystem, able to work individually or collaborate with a team, work efficiently. I have internship experience as a Front-End Web Developer. I am a fast learner, stay up to date with technological developments, and have a strong curiosity. I am continuously seeking knowledge to grow and develop my skills in the IT field.
                 </p>
                 <div className="flex flex-wrap items-center gap-4 md:gap-7">
                     {

@@ -40,7 +40,27 @@ const skillItem = [
       imgSrc: '/ramdhan-np/images/Typescript_logo_2020.svg',
       label: 'Typescript',
       desc: 'JavaScript Superset'
-    }
+    },
+    {
+      imgSrc: '/ramdhan-np/images/mongodb.svg',
+      label: 'MongoDB',
+      desc: 'Database'
+    },
+    {
+      imgSrc: '/ramdhan-np/images/nodejs.svg',
+      label: 'NodeJS',
+      desc: 'Web Server'
+    },
+    {
+      imgSrc: '/ramdhan-np/images/expressjs.svg',
+      label: 'ExpressJS',
+      desc: 'Node Framework'
+    },
+    {
+      imgSrc: '/ramdhan-np/images/tailwindcss.svg',
+      label: 'TailwindCSS',
+      desc: 'User Interface'
+    },
   ];
 
 const Skill = () => {
