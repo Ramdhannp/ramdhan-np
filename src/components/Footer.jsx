@@ -30,7 +30,7 @@ const sitemap = [
     },
     {
       label: 'LinkedIn',
-      href: 'linkedin.com/in/ramdhannp/'
+      href: 'https://www.linkedin.com/in/ramdhannp/'
     },
 
     {

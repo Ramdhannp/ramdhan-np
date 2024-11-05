@@ -45,7 +45,7 @@ const Hero = () => {
                     </span>
                 </h2>
                 <h2 className="headline-1 max-w-[25ch] sm:max-w-[30ch] lg:max-w-[25ch] mt-4 mb-8 lg:mb-10">
-                    Building Scalable Modern Websites for the Future
+                    Building Scalable Modern Aplications for the Future
                 </h2>
 
                 <div className="flex items-center gap-3">

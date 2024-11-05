@@ -57,10 +57,10 @@ const skillItem = [
       desc: 'Node Framework'
     },
     {
-      imgSrc: '/ramdhan-np/images/tailwindcss.svg',
-      label: 'TailwindCSS',
-      desc: 'User Interface'
-    },
+      imgSrc: '/ramdhan-np/images/react-native-1.svg',
+      label: 'React Native',
+      desc: 'Mobile App Framework'
+    }
   ];
 
 const Skill = () => {
