@@ -2,62 +2,62 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-      imgSrc: '/ramdhan-np/images/css3.svg',
+      imgSrc: '/images/css3.svg',
       label: 'CSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/ramdhan-np/images/javascript.svg',
+      imgSrc: '/images/javascript.svg',
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
-      imgSrc: '/ramdhan-np/images/next-js.png',
+      imgSrc: '/images/next-js.png',
       label: 'Next JS',
       desc: 'React Framework'
     },
     {
-      imgSrc: '/ramdhan-np/images/bootstrap-logo-shadow.png',
+      imgSrc: '/images/bootstrap-logo-shadow.png',
       label: 'Bootstrap',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/ramdhan-np/images/react.svg',
+      imgSrc: '/images/react.svg',
       label: 'React',
       desc: 'Framework'
     },
     {
-      imgSrc: '/ramdhan-np/images/tailwindcss.svg',
+      imgSrc: '/images/tailwindcss.svg',
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/ramdhan-np/images/github-logo.svg',
+      imgSrc: '/images/github-logo.svg',
       label: 'Github',
       desc: 'Manage Projects'
     },
     {
-      imgSrc: '/ramdhan-np/images/Typescript_logo_2020.svg',
+      imgSrc: '/images/Typescript_logo_2020.svg',
       label: 'Typescript',
       desc: 'JavaScript Superset'
     },
     {
-      imgSrc: '/ramdhan-np/images/mongodb.svg',
+      imgSrc: '/images/mongodb.svg',
       label: 'MongoDB',
       desc: 'Database'
     },
     {
-      imgSrc: '/ramdhan-np/images/nodejs.svg',
+      imgSrc: '/images/nodejs.svg',
       label: 'NodeJS',
       desc: 'Web Server'
     },
     {
-      imgSrc: '/ramdhan-np/images/expressjs.svg',
+      imgSrc: '/images/expressjs.svg',
       label: 'ExpressJS',
       desc: 'Node Framework'
     },
     {
-      imgSrc: '/ramdhan-np/images/react-native-1.svg',
+      imgSrc: '/images/react-native-1.svg',
       label: 'React Native',
       desc: 'Mobile App Framework'
     }
