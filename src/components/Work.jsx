@@ -10,13 +10,13 @@ const works = [
     {
       imgSrc: '/images/website-2.png',
       title: 'Monitoring Dashboard',
-      tags: ['React', 'Intership'],
+      tags: ['React', 'Internship'],
       projectLink: 'https://ramdhannp.github.io/dashboard-monitoring-kerja-praktik/'
     },
     {
       imgSrc: '/images/website-3.jpg',
-      title: 'My Old Web Potrolofio',
-      tags: ['Next JS', 'Web Portofolio'],
+      title: 'My Old Web Portfolio',
+      tags: ['Next JS', 'Web Portfolio'],
       projectLink: 'https://ramdhan-portofolio.vercel.app/'
     }
 ];  
@@ -26,7 +26,7 @@ const Work = () => {
     <section id="work" className="section">
         <div className="container">
             <h2 className="headline-2 mb-8 reveal-up">
-                My Portofolio highlights
+                My Portfolio highlights
             </h2>
 
             <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">

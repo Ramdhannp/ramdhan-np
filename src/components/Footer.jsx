@@ -90,7 +90,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="flex items-cemmter justify-between pt-10 mb-8 reveal-up">
+            <div className="flex items-center justify-between pt-10 mb-8 reveal-up">
                 <a href="" className="">
                     <img src="/images/logo.jpeg" alt="logo" 
                     width={40}
@@ -99,7 +99,7 @@ const Footer = () => {
                     />
                 </a>
                 <p className="text-zinc-500 text-sm">
-                    &copy; 2024 <span className="text-zinc-200">
+                    &copy; {new Date().getFullYear()} <span className="text-zinc-200">
                         ramdhannp
                     </span>
                 </p>

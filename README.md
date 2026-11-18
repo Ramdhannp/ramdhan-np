@@ -22,8 +22,9 @@ The page is a single scroll with anchor navigation, composed in `src/App.jsx`:
 
 ## Tech stack
 
-- **React 18** + **Vite 6**
-- **Tailwind CSS 3** with `tailwind-scrollbar` (utility classes in JSX)
+- **React 18** + **Vite 8**
+- **Tailwind CSS 4** with `tailwind-scrollbar` (utility classes in JSX, theme and
+  plugin configured in `src/index.css`; there is no `tailwind.config.js`)
 - **GSAP** + `ScrollTrigger` (`@gsap/react`) — scroll-reveal animation for
   elements with the `reveal-up` class
 - **Lenis** (`lenis/react`) — smooth scrolling wrapper in `App.jsx`
@@ -63,9 +64,9 @@ The dev server is pinned to `http://127.0.0.1:5173`.
 ├── src
 │   ├── main.jsx            # React entry point
 │   ├── App.jsx             # Lenis root, GSAP scroll-reveal, page sections
-│   ├── index.css           # Tailwind layers and base styles
+│   ├── index.css           # Tailwind import, theme, custom classes
 │   └── components/         # Header, Hero, About, Skill, Work, Contact, Footer…
-├── tailwind.config.js
+├── postcss.config.js       # @tailwindcss/postcss
 ├── vite.config.js
 └── Dockerfile              # Build stage + artifact-only Alpine stage
 ```
@@ -89,8 +90,13 @@ Two deployment paths exist:
 2. **Manual** — `npm run deploy` (uses the `gh-pages` package and the
    `homepage` field in `package.json`).
 
-`vite.config.js` sets `base: "/"`; if the site is ever served from a
-sub-path (e.g. a project page), update `base` to match.
+GitHub Pages serves this project from `/ramdhan-np/`, so the build needs
+`base: "/ramdhan-np/"`. Instead of hardcoding it, `vite.config.js` reads the
+`BASE_PATH` environment variable and defaults to `/`:
+
+- CI sets `BASE_PATH=/ramdhan-np/` for the build step.
+- `npm run deploy` does the same through the `predeploy` script.
+- `npm run dev` and `npm run preview` keep `/`, so local URLs stay at the root.
 
 ## License
 

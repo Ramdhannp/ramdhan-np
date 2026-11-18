@@ -1,25 +1,27 @@
 // Node Modules
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 
 
-// eslint-disable-next-line react/prop-types
 const Navbar = ({ navOpen }) => {
     const lastActiveLink = useRef();
     const activeBox = useRef();
 
-    const initActiveBox = () => {
-        // console.log(lastActiveLink.current)
-        // console.log(activeBox.current)
+    const initActiveBox = useCallback(() => {
+        if (!lastActiveLink.current || !activeBox.current) return
+
         activeBox.current.style.top = lastActiveLink.current.offsetTop + 'px'
         activeBox.current.style.left = lastActiveLink.current.offsetLeft + 'px'
         activeBox.current.style.width = lastActiveLink.current.offsetWidth + 'px'
         activeBox.current.style.height = lastActiveLink.current.offsetHeight + 'px'
-    }
+    }, [])
 
-    useEffect(initActiveBox, [])
+    useEffect(() => {
+        initActiveBox()
+        window.addEventListener('resize', initActiveBox)
 
-    window.addEventListener('resize', initActiveBox)
+        return () => window.removeEventListener('resize', initActiveBox)
+    }, [initActiveBox])
 
     const activeCurrentLink = (event) => {
         lastActiveLink.current?.classList.remove('active')
@@ -86,7 +88,7 @@ const Navbar = ({ navOpen }) => {
     )
 }
 
-Navbar.PropTypes = {
+Navbar.propTypes = {
     navOpen: PropTypes.bool.isRequired
 }
 
